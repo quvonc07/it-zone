@@ -1,0 +1,184 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+::-webkit-scrollbar {
+    background: var(--webkit-scrollbar);
+    border-radius: 20px;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--webkit-scrollbar-thumb);
+    border-radius: 20px;
+}
+
+:root{
+    --body:rgb(248, 249, 250);
+    --sidebar:rgb(255, 255, 255);
+    --input:#f3f3f4;
+    --sidebar-border: rgb(233, 236, 239);
+    --sidebar-icons: #3a416f;
+    --course-col: #fff;
+    --dot: #111;
+    --webkit-scrollbar: rgb(243, 166, 219);
+    --webkit-scrollbar-thumb: rgb(255, 0, 174);
+    --table: #fff;
+    --sidebar-text: #67748e;
+    --sidebar-hover: #111;
+    --line: #000;
+    --dropdown: #fff;
+    --drop-shadow: #ccc;
+    --header-title: #555;
+    --active: #111;
+    --buttons: #222540;
+    transition: 0.3s ease-out;
+}
+.theme{
+    --body:#222540;
+    --sidebar:#2c2e4a; 
+    --input:#3c3f66;
+    --sidebar-border: #31355a; 
+    --sidebar-icons: #f3f3f4;
+    --body-texts: #fff;
+    --course-col: #2c2e4a;
+    --dot: #ccc;
+    --table: #2c2e4a;
+    --sidebar-text: #fff;
+    --sidebar-hover: #fff;
+    --line: #fff;
+    --dropdown: #222540;
+    --drop-shadow: #0f111f;
+    --header-title: #fff;
+    --active: #fff;
+    --buttons: #fff;
+    transition: 0.3s ease-out;
+    :where(.css-dev-only-do-not-override-3rel02).ant-drawer .ant-drawer-content {
+        background: var(--sidebar);
+    }
+}
+
+.sidebar-icon {
+    background: var(--sidebar-border);
+}
+
+.sidebar-icon i {
+    color: var(--sidebar-icons);
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background: var(--body);
+    transition: 0.3s ease-out;
+    color: var(--body-texts);
+}
+
+.layout {
+    display: flex;
+}
+
+.sidebar {
+    width: 256px;
+    min-width: 256px;
+    border-radius: 16px;
+    box-shadow: 0px 20px 27px 0px rgba(0, 0, 0, 0.05);
+    background: var(--sidebar);
+    margin: 20px;
+    height: calc(100vh - 60px);
+    overflow-y: auto;
+    padding: 20px;
+}
+
+.main {
+    /* background-color: red; */
+    width: 100%;
+    margin-right: 20px;
+}
+
+.header {
+    height: 45px;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    border-radius: 11px;
+    box-shadow: 0px 20px 27px 0px rgba(0, 0, 0, 0.05);
+    background: var(--sidebar);
+    padding: 24px 15px;
+}
+
+.content {
+    padding: 0 15px;
+    height: calc(100vh - 105px);
+    overflow-y: auto;
+    padding-bottom: 20px;
+}
+
+
+.spinner {
+    width: 100%;
+    height: calc(100vh - 140px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(50, 49, 49, 0.1)
+}
+
+.page-header {
+    height: 50px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.page-header-title {
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-size: 30px;
+    color: var(--header-title);
+}
+
+.add-btn {
+    background: linear-gradient(to bottom right, #cb0c9f, #7928ca);
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px -1px #00000012, 0 4px 7px -1px #0000001c;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    height: 40px;
+    letter-spacing: -.332px;
+    outline: 0;
+    transition: all .2s;
+    width: 60px;
+    transition: 0.5s;
+}
+
+.add-btn:hover {
+    box-shadow: 0 2px 8px -1px #f965ff,0 4px 7px -1px #c722e869
+}
+
+@import "login.css";
+@import "header.css";
+@import "sidebar.css";
+@import "course.css";
+@import "reception.css";
+@import "teacher.css";
+@import "home.css";
+@import "notFound.css";
+@import "news.css";
+@import "group.css";
+@import "info.css"

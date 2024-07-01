@@ -1,0 +1,22 @@
+.teacher tbody td img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
+.info {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #38c475;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+}
+
+.info i {
+    color: white !important;
+}

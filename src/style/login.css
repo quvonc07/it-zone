@@ -1,0 +1,99 @@
+.login {
+    background-color: #ccc;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login__header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 55vh;
+    background-image: url(../assets/img/login-back.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.login__form {
+    border-radius: 12px;
+
+    box-shadow: 0px 20px 27px 0px rgba(0, 0, 0, 0.05);
+    background: rgb(255, 255, 255);
+    width: 409px;
+    padding: 23px;
+    position: absolute;
+}
+
+.login__form__title {
+    color: rgb(37, 47, 64);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: -1px;
+    letter-spacing: -0.55px;
+    text-align: center;
+    margin-bottom: 34px;
+}
+
+.login input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid rgb(217, 217, 217);
+    border-radius: 6px;
+    outline: none;
+    background: rgb(255, 255, 255);
+    margin-bottom: 17px;
+}
+
+.login button {
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: -1px;
+    letter-spacing: -0.39px;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 18px;
+    margin-bottom: 26px;
+    border: 0;
+    box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.07), 0px 4px 6px -1px rgba(0, 0, 0, 0.12);
+    background: linear-gradient(135.00deg, rgb(58, 65, 111) -48.787%, rgb(20, 23, 39) 51.213%);
+}
+
+.login__form__link {
+    color: rgb(131, 146, 171);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: -1px;
+    letter-spacing: -0.39px;
+    text-align: center;
+}
+
+.login__form__link a {
+    color: rgb(20, 20, 20);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: -1px;
+    letter-spacing: -0.39px;
+    text-align: left;
+}
+.form__control{
+    position: relative;
+}
+.form__icon{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    top: 5px;
+    user-select: none;
+}
+.form__control input{
+    padding-right: 45px;
+}

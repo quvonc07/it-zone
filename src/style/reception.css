@@ -1,0 +1,85 @@
+.reception-btn {
+    background: linear-gradient(to bottom right, #cb0c9f, #7928ca);
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px -1px #00000012, 0 4px 7px -1px #0000001c;
+    color: #fff;
+    cursor: pointer;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    height: 50px;
+    letter-spacing: -.332px;
+    line-height: normal;
+    outline: 0;
+    transition: all .2s;
+    width: 80px;
+}
+
+.table {
+    width: 100%;
+    background: var(--table);
+    border-radius: 12px;
+    box-shadow: 0 0 10px #0000001c;
+    margin-top: 40px;
+    padding: 10px 5px;
+    text-align: center;
+}
+
+.table tbody:hover {
+    box-shadow: 0 0 7px #a4a4a4;
+    border-radius: 9px;
+}
+
+.trash-border {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trash-border i {
+    color: white;
+}
+
+.pen {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #62acdd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pen i {
+    color: white;
+}
+
+tbody {
+    height: 80px;
+    transition: 0.3s;
+}
+
+tbody td img {
+    width: 60px;
+    height: 60px;
+}
+
+tbody td:nth-child(4) {
+    height: 80px;
+}
+
+tbody td:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    height: 80px;
+}
